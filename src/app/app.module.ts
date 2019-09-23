@@ -12,10 +12,12 @@ import { CurrentConditionsEffects } from './effects/current-conditions.effects';
 import { HttpClientModule } from '@angular/common/http';
 import { WeatherService } from './services/weather.service';
 import { RouterModule } from "@angular/router";
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
